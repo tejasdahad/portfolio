@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import blocktrade from '../../Assets/Projects/blocktrade.jpg';
 import cosmicom from '../../Assets/Projects/cosmicom.jpg';
+import agro from '../../Assets/Projects/agro.jpg';
 import dermosolutions from '../../Assets/Projects/dermosolutions.jpg';
 import eeg from '../../Assets/Projects/eeg.gif';
 import suicide from '../../Assets/Projects/suicide.png';
@@ -50,13 +51,13 @@ function Projects() {
           </Col>
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={cosmicom}
+              imgPath={agro}
               isBlog={false}
-              title='Cosmicom'
-              description='Devloped an E-commerce portal which connects the buyers,
-              shippers and customer via a single platform.Customer could add products to cart and a shipper of that particular country is allocated after buying the products from a particular seller of choice.
+              title='Laddha Agro Plast Industries'
+              description='Devloped website for an agro based industry in Jaglaon named Laddha Agro Plast Industries.
+              It contained automatic email responding, details of products and services provided by the company.
               '
-              link='https://github.com/Karan05122000/cosmicom'
+              link='https://github.com/tejasdahad/laddhaagro-project'
             />
           </Col>
         </Row>

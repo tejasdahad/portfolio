@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import myImg from '../../Assets/profile-photo.png';
+import myImg from '../../Assets/profile.png';
 import '../../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tilt from 'react-parallax-tilt';
@@ -56,7 +56,7 @@ function Home2() {
             <ul className='home-about-social-links'>
               <li className='social-icons'>
                 <a
-                  href='https://github.com/Karan05122000'
+                  href='https://github.com/tejasdahad'
                   target='_blank'
                   rel='noreferrer'
                   className='icon-colour  home-social-icons'
@@ -66,7 +66,7 @@ function Home2() {
               </li>
               <li className='social-icons'>
                 <a
-                  href='https://twitter.com/karan_kangude'
+                  href='https://twitter.com/tejas_dahad'
                   target='_blank'
                   rel='noreferrer'
                   className='icon-colour  home-social-icons'
@@ -76,7 +76,7 @@ function Home2() {
               </li>
               <li className='social-icons'>
                 <a
-                  href='https://www.linkedin.com/in/karan-kangude-220a0416b/'
+                  href='https://www.linkedin.com/in/tejas-dahad-b2a492b3'
                   target='_blank'
                   rel='noreferrer'
                   className='icon-colour  home-social-icons'
@@ -86,7 +86,7 @@ function Home2() {
               </li>
               <li className='social-icons'>
                 <a
-                  href='https://www.instagram.com/kangude_karan/'
+                  href='https://www.instagram.com/tejas_dahad/'
                   target='_blank'
                   rel='noreferrer'
                   className='icon-colour home-social-icons'

@@ -46,8 +46,11 @@ function About() {
           <Techstack iconName='devicon-react-original-wordmark' />
           <Techstack iconName='devicon-mongodb-plain-wordmark' />
           <Techstack iconName='devicon-git-plain-wordmark' />
+          <Techstack iconName="devicon-firebase-plain-wordmark" />
           <Techstack iconName='devicon-bootstrap-plain-wordmark' />
-          <Techstack iconName='devicon-angularjs-plain' />
+          <Techstack iconName='devicon-webpack-plain-wordmark' />
+          <Techstack iconName='devicon-jupyter-plain-wordmark' />
+          <Techstack iconName='devicon-matlab-plain' />
           <Techstack iconName='devicon-html5-plain' />
           <Techstack iconName='devicon-materialui-plain' />
         </Row>
@@ -55,7 +58,6 @@ function About() {
           <strong className='purple'>Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-          <Techstack iconName='devicon-linux-plain' />
           <Techstack iconName='cib-visual-studio-code' />
           <Techstack iconName='devicon-npm-original-wordmark' />
           <Techstack iconName='devicon-redux-original' />
