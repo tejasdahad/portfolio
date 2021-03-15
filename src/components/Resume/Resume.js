@@ -22,11 +22,11 @@ function Resume() {
           <Col md={6} className='resume-left'>
             <h3 className='resume-title'>Experience</h3>
             <Resumecontent
-              title='FULL STACK WEB DEVELOPER [WEBKNOT]'
+              title='FULL STACK WEB DEVELOPER [MISSIONED]'
               date='March 2020 - July 2020'
               content={[
-                'Worked in a team of 5 members implemented grocery ordering portal named KIRANA',
-                ' Added a few core features to the Horizon Application such as resume finder, subscription plans section and payment history.',
+                'Worked in a team of 10 members implemented online education platform named MISSIONED',
+                ' Added a few core features like payment gateway integration, student teacher one-to-one interaction and firebase authentication',
               ]}
             />
             <h3 className='resume-title'>Extracurricular Activities</h3>
@@ -36,23 +36,29 @@ function Resume() {
                 'Worked as developer, tester and manager for virtual stock market during the event.',
               ]}
             />
+            <Resumecontent
+              title='Team Member [Pictoreal (Editing Team)  Cultural Club of PICT PUNE]'
+              content={[
+                'Edited articles for annual magazine event',
+              ]}
+            />
           </Col>
           <Col md={6} className='resume-right'>
             <h3 className='resume-title'>Education</h3>
             <Resumecontent
               title='Computer Science Engineering [PICT, PUNE] '
-              date='2019 - Present'
-              content={[`CGPA: 9.6 (Till 4th Sem)`]}
+              date='2018 - Present'
+              content={[`CGPA: 9.59 (Till 4th Sem)`]}
             />
             <Resumecontent
-              title='12TH BOARD [RR Shinde Jr College,PUNE]'
+              title='12TH BOARD [Deogiri Junior College, Aurangabad]'
               date='2016 - 2018'
-              content={['Precentage: 91.79%']}
+              content={['Precentage: 90.92%']}
             />
             <Resumecontent
-              title='10TH BOARD [Sadhana English Medium School,PUNE] '
-              date='2006 - 2016'
-              content={['Precentage: 92.4%']}
+              title='10TH BOARD [Rustomjie International School, Jalgaon] '
+              date='2004 - 2016'
+              content={['Precentage: 98%']}
             />
             <h3 className='resume-title'>Ranks and Achivements</h3>
             <Resumecontent
@@ -61,9 +67,7 @@ function Resume() {
                 `Winners of Manipal TechTatva - a national level hackathon comprising 6 domains conducted by
                 Manipal Institute of Technology with 800+ participants.
                 `,
-                'Ranked among top 10 teams in Pascathon at Pune Institute of Computer Technology with 100+ teams',
-                `Global Rank 56 in February Codechef Starter 2021`,
-                'Most Improved Performer - Webknot Technologies',
+                'Ranked among top 10 teams in Pascathon at Pune Institute of Computer Technology with 100+ teams'
               ]}
             />
           </Col>
