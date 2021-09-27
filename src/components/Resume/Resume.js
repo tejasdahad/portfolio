@@ -6,7 +6,7 @@ import Resumecontent from './ResumeContent';
 import '../../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
-import pdf from '../../Assets/Resume.pdf';
+import pdf from '../../Assets/Tejas_Dahad_Resume.pdf';
 
 function Resume() {
   return (
@@ -21,6 +21,15 @@ function Resume() {
         <Row className='resume'>
           <Col md={6} className='resume-left'>
             <h3 className='resume-title'>Experience</h3>
+            <Resumecontent
+              title='DATA SCIENCE INTERN [TECHMAHINDRA]'
+              date='July 2021 - September 2020'
+              content={[
+                'Teamed with 2 people and worked on data management audit.',
+                'Designed 2 dashboard for summarization of databases, users, transaction average and revenue year wise.',
+                ' Included 2-3 visualization graphs for revenue on dashboard',
+              ]}
+            />
             <Resumecontent
               title='FULL STACK WEB DEVELOPER [MISSIONED]'
               date='March 2020 - July 2020'
@@ -48,7 +57,7 @@ function Resume() {
             <Resumecontent
               title='Computer Science Engineering [PICT, PUNE] '
               date='2018 - Present'
-              content={[`CGPA: 9.59 (Till 4th Sem)`]}
+              content={[`CGPA: 9.72 (Till 6th Sem)`]}
             />
             <Resumecontent
               title='12TH BOARD [Deogiri Junior College, Aurangabad]'
@@ -68,6 +77,16 @@ function Resume() {
                 Manipal Institute of Technology with 800+ participants.
                 `,
                 'Ranked among top 10 teams in Pascathon at Pune Institute of Computer Technology with 100+ teams'
+              ]}
+            />
+            <h3 className='resume-title'>Social Work</h3>
+            <Resumecontent
+              title=''
+              content={[
+                `Developed site for doctor to practice 
+                online and help patients in times of covid19. Doctor successfully treated more than 
+                40 patients online
+                `,
               ]}
             />
           </Col>
