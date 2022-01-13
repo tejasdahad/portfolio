@@ -6,7 +6,7 @@ import Resumecontent from './ResumeContent';
 import '../../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
-import pdf from '../../Assets/Tejas_Dahad_Resume.pdf';
+import pdf from '../../Assets/Tejas Dahad Resume.pdf';
 
 function Resume() {
   return (

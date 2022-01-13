@@ -14,6 +14,7 @@ import eeg from '../../Assets/Projects/eeg.gif';
 import suicide from '../../Assets/Projects/suicide.png';
 import algo from '../../Assets/Projects/algo.png';
 import plant from '../../Assets/Projects/plant.jpeg';
+import tele from '../../Assets/tele2.jpg';
 
 function Projects() {
   return (
@@ -58,6 +59,17 @@ function Projects() {
               It contained automatic email responding, details of products and services provided by the company.
               '
               link='https://github.com/tejasdahad/laddhaagro-project'
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={tele}
+              isBlog={false}
+              title='Panacea Pedia Care Clinic'
+              description='The platform facilitates teleconsultation in hard times of covid. It includes features such as appointment booking, prescription filing and generating patient history.'
+              link='https://panaceapediacareclinicdrpayal.web.app/'
             />
           </Col>
         </Row>
